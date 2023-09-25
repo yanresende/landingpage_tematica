@@ -48,7 +48,7 @@
             border-bottom: 5px solid transparent;
 
             &--is-active {
-                border-color: variaveis.$corTextoSecundario;
+                border-color: variaveis.$corDeFundoVermelho;
             }
 
             @media (max-width: 768px) {
