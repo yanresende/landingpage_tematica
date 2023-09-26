@@ -18,7 +18,7 @@ function styles() {
 function images() {
     return gulp.src('./src/Images/**/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('./dist/images'));
+        .pipe(gulp.dest('./dist/Images'));
 }
 
 exports.default = gulp.parallel(styles, images, scripts);
