@@ -41,16 +41,6 @@ function abreOuFechaResposta(elemento) {
     elementoPai.classList.toggle(classe);
 }
 
-function ocultaElementosDoHeader() {
-    const header = document.querySelector('header');
-    header.classList.add('header--is-hidden');
-}
-
-function exibeElementosDoHeader() {
-    const header = document.querySelector('header');
-    header.classList.remove('header--is-hidden');
-}
-
 function removeBotaoAtivo() {
     const buttons = document.querySelectorAll('[data-tab-button]');
 
